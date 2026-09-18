@@ -4,7 +4,7 @@
 ## 2. Implementation of different categories of operators.
 # Ex.No:1
   Build a C program to demonstrate the usage of different types of literals: integer, float, character, and string.  
-# Date : 
+# Date : 18/09/2026
 # Aim:
 To build a C program that prints integer, float,character, and string literals on the console using the printf() function.
 # Algorithm:
@@ -26,7 +26,67 @@ To build a C program that prints integer, float,character, and string literals o
 ### Step 4: 
    Stop
 # Program:
+Integer Literal
+```
+#include <stdio.h>
+int main()
+{
+    int a;
+    scanf("%d", &a);
+    printf("%d", a);
+    return 0;
+}
+```
+
+Float Literal
+```
+#include <stdio.h>
+int main()
+{
+    float a=5.800000;
+    printf("%.3f",a);
+    return 0;
+}
+```
+
+Character Literal
+```
+# include<stdio.h>
+int main()
+{
+    char ch = 'A';
+    printf("%c", ch);
+    return 0;
+}
+```
+
+String Literal
+```
+#include <stdio.h>
+int main()
+{
+    char name[30];
+    
+    fgets(name, sizeof(name),stdin);  // read string
+    printf("Name: %s", name);
+    return 0;
+}
+```
+
 # Output:
+Integer Literal
+<img width="846" height="542" alt="image" src="https://github.com/user-attachments/assets/8d50eabb-96a4-4cd6-a86c-36af29f2ee0c" />
+
+Float Literal
+<img width="735" height="487" alt="image" src="https://github.com/user-attachments/assets/96d80cf3-a0c3-45fb-8bdf-6beebedf4f41" />
+
+Character Literal
+<img width="925" height="420" alt="image" src="https://github.com/user-attachments/assets/972156b5-e4f1-46ec-951d-5caa5bcf65dd" />
+
+String Literal
+<img width="887" height="682" alt="image" src="https://github.com/user-attachments/assets/abb1c3ad-a06d-4ea1-b995-4dbff899349f" />
+
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
