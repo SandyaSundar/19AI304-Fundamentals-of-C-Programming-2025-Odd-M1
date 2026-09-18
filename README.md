@@ -171,6 +171,7 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 5:    
    Stop
 # Program:
+```
 #include <stdio.h>
 
 int main() {
