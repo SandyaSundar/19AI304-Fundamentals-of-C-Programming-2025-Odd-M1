@@ -111,7 +111,7 @@ Thus, the program was implemented and executed successfully, and the required ou
 # IAPR-1- Module 1 - FoC
 # Ex.No:2
   Build a C program to display the value of a macro constant and a constant variable.
-# Date : 
+# Date : 18/09/2026 
 # Aim:
   To build a C program that demonstrates the use of macro constants and constant variables.
 # Algorithm:
@@ -133,30 +133,6 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 6:  
   Stop
 # Program:
-# Output:
-# Result: 
-Thus, the program was implemented and executed successfully, and the required output was obtained.
-
-
-# 19AI304-Fundamentals-of-C-Programming-2025-Odd
-# IAPR-1- Module 1 - FoC
-# Ex.No:3
-  Build a C program to demonstrate the use of different data types such as int, float, double, and char, and display their values using printf().
-# Date : 
-# Aim:
-  To build a C program that declares variables of various data types—integer, float, double, and character—initializes them, and prints their values on the screen.
-# Algorithm:
-### Step 1:
-  Start
-### Step 2: 
-  Include the standard input-output library: #include<stdio.h>.
-### Step 3: 
-  Inside main(), declare and initialize variables of types int, float, double, and char.
-### Step 4: 
-   Display their values using printf().
-### Step 5:    
-   Stop
-# Program:
 ```
 #include <stdio.h>
 #define PI 3.14159
@@ -172,6 +148,49 @@ int main() {
 # Output:
 <img width="652" height="320" alt="image" src="https://github.com/user-attachments/assets/78883e8e-802c-44f7-a9ef-a5685cc867d6" />
 
+# Result: 
+Thus, the program was implemented and executed successfully, and the required output was obtained.
+
+
+# 19AI304-Fundamentals-of-C-Programming-2025-Odd
+# IAPR-1- Module 1 - FoC
+# Ex.No:3
+  Build a C program to demonstrate the use of different data types such as int, float, double, and char, and display their values using printf().
+# Date : 18/09/2026
+# Aim:
+  To build a C program that declares variables of various data types—integer, float, double, and character—initializes them, and prints their values on the screen.
+# Algorithm:
+### Step 1:
+  Start
+### Step 2: 
+  Include the standard input-output library: #include<stdio.h>.
+### Step 3: 
+  Inside main(), declare and initialize variables of types int, float, double, and char.
+### Step 4: 
+   Display their values using printf().
+### Step 5:    
+   Stop
+# Program:
+#include <stdio.h>
+
+int main() {
+    int num = 10;
+    float f = 3.14f;
+    double d = 25.6789;
+    char c = 'A';
+
+    printf("Integer value: %d\n", num);
+    printf("Float value: %f\n", f);
+    printf("Double value: %lf\n", d);
+    printf("Character value: %c\n", c);
+
+    return 0;
+}
+```
+# Output:
+<img width="392" height="177" alt="image" src="https://github.com/user-attachments/assets/4b22b1f4-f995-461f-9422-da239824e0dc" />
+
+
 # Result:
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
@@ -179,7 +198,7 @@ Thus, the program was implemented and executed successfully, and the required ou
 # IAPR-1- Module 1 - FoC
 # Ex.No:4
   Build a C program to perform arithmetic and bitwise operations on two integers entered by the user. The program should display: Arithmetic operations: addition, subtraction, multiplication, division, and remainder. Bitwise operations: AND, OR, XOR, left shift, right shift, and NOT.
-# Date : 
+# Date : 18/09/2026
 # Aim:
   To build a C program that takes two integers as input and demonstrates the arithmetic and bitwise operations, displaying the results of each operation.
 # Algorithm:
@@ -248,7 +267,7 @@ Thus, the program was implemented and executed successfully, and the required ou
 # IAPR-1- Module 1 - FoC
 # Ex.No:5
   Develop a C program to check whether a given character is a vowel, consonant, digit, or special symbol using the ternary operator.
-# Date : 
+# Date : 18/09/2026
 # Aim:
   To develop and implement a C program that classifies a character as a vowel, consonant, digit, or special symbol using the ternary operator.
 # Algorithm:
