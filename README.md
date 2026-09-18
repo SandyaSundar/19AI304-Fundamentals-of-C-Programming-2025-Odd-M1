@@ -75,16 +75,32 @@ int main()
 
 # Output:
 Integer Literal
+
+
 <img width="846" height="542" alt="image" src="https://github.com/user-attachments/assets/8d50eabb-96a4-4cd6-a86c-36af29f2ee0c" />
 
+
+
 Float Literal
+
+
 <img width="735" height="487" alt="image" src="https://github.com/user-attachments/assets/96d80cf3-a0c3-45fb-8bdf-6beebedf4f41" />
 
+
+
 Character Literal
+
+
 <img width="925" height="420" alt="image" src="https://github.com/user-attachments/assets/972156b5-e4f1-46ec-951d-5caa5bcf65dd" />
 
+
+
 String Literal
+
+
 <img width="887" height="682" alt="image" src="https://github.com/user-attachments/assets/abb1c3ad-a06d-4ea1-b995-4dbff899349f" />
+
+
 
 
 # Result: 
@@ -141,8 +157,23 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 5:    
    Stop
 # Program:
+```
+#include <stdio.h>
+#define PI 3.14159
+int main() {
+    const int DAYS = 7;
+
+    printf("Value of macro constant PI: %f\n", PI);
+    printf("Value of constant variable DAYS: %d\n", DAYS);
+
+    return 0;
+}
+```
 # Output:
-# Result: 
+<img width="652" height="320" alt="image" src="https://github.com/user-attachments/assets/78883e8e-802c-44f7-a9ef-a5685cc867d6" />
+
+# Result:
+Thus, the program was implemented and executed successfully, and the required output was obtained.
 
 # 19AI304-Fundamentals-of-C-Programming-2025-Odd
 # IAPR-1- Module 1 - FoC
@@ -180,7 +211,35 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 8:   
   Stop
 # Program:
+```
+#include <stdio.h>
+
+int main() {
+    int a, b;
+    printf("Enter two integers: ");
+    scanf("%d %d", &a, &b);
+    printf("\nArithmetic Operations:\n");
+    printf("Sum = %d\n", a + b);
+    printf("Difference = %d\n", a - b);
+    printf("Product = %d\n", a * b);
+    printf("Quotient = %d\n", a / b);
+    printf("Remainder = %d\n", a % b);
+    printf("\nBitwise Operations:\n");
+    printf("AND = %d\n", a & b);
+    printf("OR = %d\n", a | b);
+    printf("XOR = %d\n", a ^ b);
+    printf("Left shift (a << b) = %d\n", a << b);
+    printf("Right shift (a >> b) = %d\n", a >> b);
+    printf("Bitwise NOT of a = %d\n", ~a);
+    printf("Bitwise NOT of b = %d\n", ~b);
+
+    return 0;
+}
+```
 # Output:
+<img width="497" height="772" alt="image" src="https://github.com/user-attachments/assets/7978328e-7a09-49ed-a602-bcadf21742a1" />
+
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
@@ -225,7 +284,35 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 8:   
   Stop
 # Program:
+```
+#include <stdio.h>
+
+int main() {
+    char ch;
+    printf("Enter a character: ");
+    scanf("%c", &ch);
+    if (ch >= '0' && ch <= '9') {
+        printf("Digit\n");
+    }
+    else if ((ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z')) {
+        if (ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='U'||
+            ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u') {
+            printf("Vowel\n");
+        } else {
+            printf("Consonant\n");
+        }
+    }
+    
+    else {
+        printf("Special Symbol\n");
+    }
+
+    return 0;
+}
+```
 # Output:
+<img width="397" height="116" alt="image" src="https://github.com/user-attachments/assets/e47fe7b2-8553-4763-953f-082571765820" />
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
